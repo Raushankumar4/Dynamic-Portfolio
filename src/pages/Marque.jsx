@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 const Marque = () => {
   return (
     <>
-      <div className="bg-[#e7dddd]  w-full py-[3vw] rounded-tl-3xl  rounded-tr-3xl rounded-br-3xl rounded-bl-3xl">
+      <div className="bg-[#38505e]   w-full py-[3vw] rounded-tl-3xl  rounded-tr-3xl rounded-br-3xl rounded-bl-3xl">
         <div className="text-container border-t-[1px] border-zinc-200 border-b-[1px] flex whitespace-nowrap overflow-hidden">
           <Marquee speed={180} autoFill pauseOnHover direction="right">
             <h1 className="text-[9vw] tracking-tighter gap-4 font-extrabold text-white uppercase leading-1">

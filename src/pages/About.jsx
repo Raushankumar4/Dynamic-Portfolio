@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="w-full sm:h-[80vh] min-h-[100vh] bg-[#a6ab8fd2] relative rounded-tl-3xl">
+      <div className="w-full sm:h-[80vh] min-h-[100vh]  relative rounded-tl-3xl">
         <div className=" flex relative whitespace-wrap">
           <h1 className="uppercase mt-[12vw] w-[54vw] ml-[10vw] text-[3vw] font-semibold leading-[3vw] text-[#404040] object-cover hover:underline transition ease-in-out delay-150">
             <span className="text-[5vw] font-semibold leading-1 tracking-tight ">

@@ -13,12 +13,14 @@ const Navbar = () => {
           duration: 1,
           ease: "easeInOut",
         }}
-        className="uppercase flex h-[4.6vw] py-[1.4vw] justify-between px-[10vw] w-full text-[white] bg-[#000000]  text-[1.2vw] tracking-wide"
+        className="uppercase flex h-[2vw] mix-blend-normal py-[0.2vw]  tracking-tight justify-between px-[10vw] w-full text-gray-100 bg-[#0F172A]   text-[1vw] "
       >
-        <h1 className="font-semibold"> Code Hub👀</h1>
+        <h1 className="transition duration-300 ease-in-out hover:-scale-x-110">
+          👀{" "}
+        </h1>
         <div className="flex ">
-          <ul className="flex gap-[2vw] font-semibold cursor-pointer">
-            <li>
+          <ul className="flex gap-[2vw] font-semibold cursor-pointer ">
+            <li className="transition duration-300 ease-in-out hover:-scale-y-110">
               <Link
                 activeClass="active"
                 to="/"
@@ -32,7 +34,7 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li>
+            <li className="transition duration-300 ease-in-out hover:-scale-x-110">
               <Link
                 activeClass="active"
                 to="/about"
@@ -46,7 +48,7 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-            <li>
+            <li className="transition duration-300 ease-in-out hover:-scale-y-110">
               <Link
                 activeClass="active"
                 to="/skill"
@@ -57,11 +59,11 @@ const Navbar = () => {
                 duration={500}
                 delay={1000}
               >
-                SKills
+                Skills
               </Link>
             </li>
 
-            <li>
+            <li className="transition duration-300 ease-in-out hover:-scale-x-110 hover:translate-x-2">
               <Link
                 activeClass="active"
                 to="/service"
@@ -75,7 +77,7 @@ const Navbar = () => {
                 Services
               </Link>
             </li>
-            <li>
+            <li className="transition duration-300 ease-in-out hover:-scale-x-110 hover:translate-x-10">
               <Link
                 activeClass="active"
                 to="/contact"

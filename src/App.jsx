@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Skills from "./pages/Skills";
-import Marque from "./components/Marque";
+// import Marque from "./components/Marque";
 import LocomotiveScroll from "locomotive-scroll";
 
 const App = () => {
@@ -14,9 +14,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <div className="bg-[#000000] ">
-          <Navbar />
-        </div>
+        <Navbar />
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -26,12 +24,6 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
-
-      <Marque />
-      <About />
-      <Skills />
-      <Services />
-      <Contact />
     </>
   );
 };
