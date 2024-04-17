@@ -13,17 +13,19 @@ const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <>
-      <Router>
-        <Navbar />
+      <div className="">
+        <Router>
+          <Navbar />
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skill" element={<Skills />} />
-          <Route path="/service" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/skill" element={<Skills />} />
+            <Route path="/service" element={<Services />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
+      </div>
     </>
   );
 };

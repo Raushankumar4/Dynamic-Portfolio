@@ -1,45 +1,105 @@
 import React from "react";
-import { motion } from "framer-motion";
-import Marque from "./Marque";
-import About from "./About";
-import Skills from "./Skills";
-import Services from "./Services";
-import Contact from "./Contact";
-import Footer from "./Footer";
+
+// import Marque from "./Marque";
+// import About from "./About";
+// import Skills from "./Skills";
+// import Services from "./Services";
+// import Contact from "./Contact";
+// import Footer from "./Footer";
 import Marquee from "react-fast-marquee";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+import { useEffect } from "react";
 const Home = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
-      <div className="relative">
-        <div className="absolute z-50 bg-[#d2dddd84] w-full h-screen ">
-          <h1 className="text-[9vw] font-bold tracking-tighter   text-[#0F172A] absolute pl-[4vw] bottom-[58%]">
+      <div
+        data-aos="zoom-in-up"
+        data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        className="relative w-[100%] md:w-[99.99%] h-[100vh] m-auto p-auto box-border sm:h-[40vh] "
+      >
+        {/* <a
+          className="fixed top-[80%] z-[999] text-[4vw] left-[80%]"
+          href="navbar"
+        >
+          😊
+        </a> */}
+        <div className=" overflow-hidden absolute z-50 bg-[#7d84845b] w-full h-[100vh] md:h-[102.8vh] sm:h-[100vh] ">
+          <h1
+            data-aos="fade-right"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            className="md:text-[9vw] lg:text-[9vw]  tracking-tighter   bg-gradient-to-bl from-gray-100 via-gray-900 to-gray-900 bg-clip-text text-transparent absolute pl-[4vw] lg:bottom-[58%] sm:bottom-[59.5%] bottom-[57.99%] md:bottom-[54.66%] text-[12vw] sm:text-[10vw] md:leading-[14vw] sm:leading-[15vw] leading-[22.4vw] font-bold"
+          >
             Hi, I'm
           </h1>
-          <p className="absolute bottom-[42%] text-[9vw] font-bold tracking-tighter  pl-[4vw] text-[#0F172A]">
+          <p
+            data-aos="fade-left"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            className="absolute md:bottom-[43%] sm:bottom-[49%] lg:bottom-[44.4%]  md:text-[9vw] font-bold tracking-tighter bottom-[50.2%] pl-[4vw] bg-gradient-to-r from-zinc-900 via-slate-900 to-gray-700 bg-clip-text text-transparent text-[12vw] sm:text-[10vw]"
+          >
             Raushan.
           </p>
-          <p className="absolute bottom-[37%] text-[4vw] font-bold tracking-tighter  pl-[4.4vw] text-[#0F172A]">
-            I'm a Front-end <span className="text-[#5E61E5]">Developer.</span>
+          <p
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="350"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            className="absolute sm:bottom-[43.4%] md:bottom-[39%]  lg:bottom-[40%]  md:text-[4vw] font-bold tracking-tighter bottom-[46%]   pl-[4.4vw] bg-gradient-to-bl from-stone-900 via-blue-700 to-neutral-900 bg-clip-text text-transparent text-[6.4vw]"
+          >
+            I'm a Front-end Developer.
           </p>
-          <p className="absolute bottom-[27%] text-[1.6vw] font-smi tracking-tight pl-[4.4vw] text-[#0F172A] leading-6 mb-6">
-            I'm a Modern Web Developer based in India, <br />
-            <span className="leading-[-2vw] text-blue-800">
-              {" "}
-              and i am very passionate and{" "}
-              <span className="text-gray-500 font-bold">
-                {" "}
-                dedicated to my work.
-              </span>
-            </span>
+          <p
+            data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-delay="250"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            className="absolute sm:bottom-[35.5%] sm:tracking-tighter sm:text-[3vw]  md:bottom-[30.6%] lg:bottom-[32%] bottom-[37%]  md:text-[1.4rem] tracking-tight pl-[4.4vw]  mb-6 bg-gradient-to-br from-black via-blue-600 to-zinc-900 bg-clip-text text-transparent text-[4vw] font-semibold lg:tracking-tighter  "
+          >
+            I'm a Modern Web Developer based in India,
+          </p>
+          <p className="absolute sm:bottom-[31%] sm:tracking-tighter sm:text-[3vw]  md:bottom-[26.6%] lg:bottom-[27.89%] lg:tracking-tighter bottom-[33%]  md:text-[1.4rem] tracking-tight pl-[4.4vw]  mb-6 bg-gradient-to-br from-black via-blue-600 to-zinc-900 bg-clip-text text-transparent text-[4vw] font-semibold ">
+            and i am very passionate and dedicated to my work.
           </p>
           <a
-            className="ml-[4.6vw] mt-[4vw] absolute bottom-[22%] px-6 py-2 font-medium bg-indigo-500 text-white w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]"
+            className="ml-[4.6vw] mt-[4vw] absolute bottom-[22%] px-6 py-2 font-medium bg-indigo-500 text-white w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]  lg:bottom-[20%] md:bottom-[16%] sm:bottom-[20%]  "
             href="contact"
           >
             Hire me..
           </a>
         </div>
-        <div className="w-full lg:h-[100vh] sm:h-[44vh] bg-[#E2E8F0] -z-0 overflow-hidden m-auto  ">
+        <div
+          data-aos="zoom-out-up"
+          data-aos-delay="400"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          className="w-full lg:h-[90vh] md:min-h-[103vh] sm:h-[100vh] bg-[#E2E8F0] -z-0 overflow-hidden  h-[100vh]  "
+        >
           <Marquee
             className="text-[14vw]  text-[#CBD5E1] uppercase tracking-tighter mb-[-9vw] leading-[0vw]"
             speed={40}
@@ -50,7 +110,7 @@ const Home = () => {
           </Marquee>
 
           <Marquee
-            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter mb-[-10.6vw]"
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter mb-[-10.6vw] overflow-hidden"
             speed={40}
             autoFill
             direction="left"
@@ -58,7 +118,7 @@ const Home = () => {
             code play eat code
           </Marquee>
           <Marquee
-            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter mb-[-10.6vw]"
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter mb-[-10.6vw] overflow-hidden"
             speed={40}
             autoFill
             direction="right"
@@ -66,7 +126,7 @@ const Home = () => {
             code play eat
           </Marquee>
           <Marquee
-            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter mb-[-10.6vw] "
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter mb-[-10.6vw] overflow-hidden"
             speed={40}
             autoFill
             direction="left"
@@ -74,7 +134,7 @@ const Home = () => {
             Wlcome to my official portfolio
           </Marquee>
           <Marquee
-            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter mb-[-10.6vw] "
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter mb-[-10.6vw]  overflow-hidden"
             speed={40}
             autoFill
             direction="right"
@@ -82,22 +142,126 @@ const Home = () => {
             code play eat
           </Marquee>
           <Marquee
-            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter "
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter mb-[-5.6vw]  overflow-hidden "
             speed={40}
             autoFill
             direction="left"
           >
             Wlcome to my official portfolio
+          </Marquee>
+          <Marquee
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter  leading-[12vw] overflow-hidden"
+            speed={40}
+            autoFill
+            direction="right"
+          >
+            code play eat code
+          </Marquee>
+          <Marquee
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter leading-[12vw] overflow-hidden"
+            speed={40}
+            autoFill
+            direction="left"
+          >
+            code play eat code
+          </Marquee>
+          <Marquee
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter leading-[12vw] overflow-hidden"
+            speed={40}
+            autoFill
+            direction="right"
+          >
+            code play eat code
+          </Marquee>
+          <Marquee
+            className=" text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter leading-[12vw] overflow-hidden"
+            speed={40}
+            autoFill
+            direction="left"
+          >
+            code play eat code
+          </Marquee>
+          <Marquee
+            className=" text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter leading-[12vw] overflow-hidden"
+            speed={40}
+            autoFill
+            direction="right"
+          >
+            code play eat code
+          </Marquee>
+          <Marquee
+            className=" text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter leading-[12vw] overflow-hidden"
+            speed={40}
+            autoFill
+            direction="left"
+          >
+            code play eat code
+          </Marquee>
+          <Marquee
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter leading-[12vw] overflow-hidden"
+            speed={40}
+            autoFill
+            direction="right"
+          >
+            code play eat code
+          </Marquee>
+          <Marquee
+            className=" text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter leading-[12vw] overflow-hidden"
+            speed={40}
+            autoFill
+            direction="left"
+          >
+            code play eat code
+          </Marquee>
+          <Marquee
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter leading-[12vw] overflow-hidden"
+            speed={40}
+            autoFill
+            direction="right"
+          >
+            code play eat code
+          </Marquee>
+          <Marquee
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter leading-[12vw] overflow-hidden"
+            speed={40}
+            autoFill
+            direction="right"
+          >
+            code play eat code
+          </Marquee>
+          <Marquee
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter leading-[12vw] overflow-hidden"
+            speed={40}
+            autoFill
+            direction="left"
+          >
+            code play eat code
+          </Marquee>
+          <Marquee
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter leading-[12vw] overflow-hidden"
+            speed={40}
+            autoFill
+            direction="right"
+          >
+            code play eat code
+          </Marquee>
+          <Marquee
+            className="text-[14vw] font-bold text-[#CBD5E1] uppercase tracking-tighter leading-[12vw] overflow-hidden"
+            speed={40}
+            autoFill
+            direction="left"
+          >
+            code play eat code
           </Marquee>
         </div>
       </div>
-
-      <Marque />
-      <About />
+      {/* 
+      <Marque /> */}
+      {/* <About />
       <Skills />
       <Services />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

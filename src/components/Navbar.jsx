@@ -1,26 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Navbar = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
-      <motion.nav
-        initial={{ opacity: 0, x: "-100%" }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{
-          delay: 0.4,
-          duration: 1,
-          ease: "easeInOut",
-        }}
-        className="uppercase flex h-[2vw] mix-blend-normal py-[0.2vw]  tracking-tight justify-between px-[10vw] w-full text-gray-100 bg-[#0F172A]   text-[1vw] "
+      <nav
+        data-aos="zoom-in-right"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        className="uppercase flex lg:h-[2.3vw] md:h-[2.99vw] mix-blend-normal md:py-[0.4vw]  tracking-tight justify-between sm:px-[14vw] px-[12vw] sm:gap-[1vw] md:px-[10vw] w-full text-gray-100 bg-gradient-to-r from-neutral-600 to-[#95959500] md:text-[1.8vw] sm:text-[2vw] text-[2.80vw] lg:text-[1.4vw]  fixed z-[999]"
       >
-        <h1 className="transition duration-300 ease-in-out hover:-scale-x-110">
-          👀{" "}
+        <h1 className="transition duration-300 ease-in-out hover:-scale-x-110 ">
+          👀
         </h1>
         <div className="flex ">
-          <ul className="flex gap-[2vw] font-semibold cursor-pointer ">
-            <li className="transition duration-300 ease-in-out hover:-scale-y-110">
+          <ul className="flex gap-[2vw] sm:gap-[1vw] font-semibold cursor-pointer ">
+            <li className="transition duration-300 ease-in-out hover:scale-x-110 ">
               <Link
                 activeClass="active"
                 to="/"
@@ -34,7 +37,7 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li className="transition duration-300 ease-in-out hover:-scale-x-110">
+            <li className="transition duration-300 ease-in-out hover:scale-x-110">
               <Link
                 activeClass="active"
                 to="/about"
@@ -48,7 +51,7 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-            <li className="transition duration-300 ease-in-out hover:-scale-y-110">
+            <li className="transition duration-300 ease-in-out hover:scale-x-110">
               <Link
                 activeClass="active"
                 to="/skill"
@@ -63,7 +66,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className="transition duration-300 ease-in-out hover:-scale-x-110 hover:translate-x-2">
+            <li className="transition duration-300 ease-in-out hover:scale-x-110 hover:translate-x-2">
               <Link
                 activeClass="active"
                 to="/service"
@@ -77,7 +80,7 @@ const Navbar = () => {
                 Services
               </Link>
             </li>
-            <li className="transition duration-300 ease-in-out hover:-scale-x-110 hover:translate-x-10">
+            <li className="transition duration-300 ease-in-out hover:scale-x-110 ">
               <Link
                 activeClass="active"
                 to="/contact"
@@ -93,7 +96,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      </motion.nav>
+      </nav>
     </>
   );
 };
