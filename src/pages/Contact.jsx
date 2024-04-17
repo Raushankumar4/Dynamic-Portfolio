@@ -54,7 +54,7 @@ const Contact = () => {
         // data-aos-mirror="true"
         // data-aos-once="false"
         // data-aos-anchor-placement="top-center"
-        className=" bg-[#1C1D20] w-[100%] md:h-[190vh] sm:min-h-[100vh] h-[140vh] flex"
+        className=" bg-gradient-to-r from-stone-500 to-stone-700 w-[100%] md:h-[210vh] sm:min-h-[100vh] h-[140vh] lg:min-h-[100vh] flex"
       >
         <div className="form-container">
           <h1
@@ -94,7 +94,7 @@ const Contact = () => {
               // data-aos-mirror="true"
               // data-aos-once="false"
               // data-aos-anchor-placement="top-center"
-              className="no-underline outline-none w-[18vw] ml-[4vw] h-[4vw] mb-[1.8vw] text-[2vw] text-gray-300 tracking-tighter font-semi bg-[#1C1D20]"
+              className="no-underline outline-none w-[18vw] ml-[4vw] h-[4vw] mb-[1.8vw] text-[2vw] text-gray-300 tracking-tighter font-semi bg-transparent"
               type="text"
               name="name"
               placeholder="Enter the name"
@@ -120,7 +120,7 @@ const Contact = () => {
               // data-aos-easing="ease-in-out"
               // data-aos-mirror="true"
               // data-aos-once="false"
-              className="no-underline relative outline-none w-[18vw] ml-[4vw] h-[4vw] mb-[1.8vw] text-[2vw] text-gray-300 tracking-tighter font-semi bg-[#1C1D20]"
+              className="no-underline relative outline-none w-[18vw] ml-[4vw] h-[4vw] mb-[1.8vw] text-[2vw] text-gray-300 tracking-tighter font-semi bg-[#1c1d2000]"
               type="email"
               name="email"
               placeholder="Enter your email"
@@ -131,7 +131,7 @@ const Contact = () => {
               What services are you looking for?
             </h1>
             <input
-              className="no-underline outline-none w-[24vw] ml-[4vw] h-[4vw] mb-[1.8vw] text-[2vw] text-gray-300 tracking-tighter font-semi bg-[#1C1D20]"
+              className="no-underline outline-none w-[24vw] ml-[4vw] h-[4vw] mb-[1.8vw] text-[2vw] text-gray-300 tracking-tighter font-semi bg-[#1c1d2000]"
               type="text"
               name="name"
               placeholder="web design,web development"
@@ -143,7 +143,7 @@ const Contact = () => {
               Write Your Message{" "}
             </h1>
             <textarea
-              className="no-underline outline-none relative w-[36vw] ml-[4vw] h-[18vw]  mb-[1.8vw] text-[2vw] text-gray-300 tracking-tighter font-semi bg-[#1C1D20] border-b-[0.5px] border-gray-300"
+              className="no-underline outline-none relative w-[36vw] ml-[4vw] h-[18vw]  mb-[1.8vw] text-[2vw] text-gray-300 tracking-tighter font-semi bg-[#1c1d2000] border-b-[0.5px] border-gray-300"
               name=""
               id=""
               cols="20"
@@ -153,7 +153,7 @@ const Contact = () => {
               required
             ></textarea>
             <button
-              className="bg-[#334BD3] w-[10vw] h-[10vw] rounded-full absolute left-[60%] top-[88.4%] tracking-tighter text-white transition ease-in-out delay-150  hover:-translate-x-[4vw] hover:scale-110 hover:rotate-45"
+              className="bg-gradient-to-r from-stone-500 to-stone-700 w-[10vw] h-[10vw] rounded-full absolute left-[60%] top-[88.4%] tracking-tighter text-white transition ease-in-out delay-150  hover:-translate-x-[4vw] hover:scale-110 hover:rotate-45"
               type="submit"
               onClick={diffTosty}
               disabled={pending ? true : false}

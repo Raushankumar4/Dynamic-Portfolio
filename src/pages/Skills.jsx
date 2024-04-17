@@ -9,12 +9,14 @@ const Skills = () => {
   }, []);
   return (
     <>
-      <div className="bg-gradient-to-r from-neutral-400 to-slate-200  md:pt-[4vw]  sm:pt-[4vw] md:h-[150vh] sm:h-[140vh] h-[174vh] pt-[17vw]">
+      <div className="bg-gradient-to-r from-neutral-300 to-stone-400  md:pt-[4vw]  sm:pt-[4vw] md:h-[150vh] sm:h-[140vh] h-[174vh] pt-[17vw]">
         <h1
-          data-aos="fade-right"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-delay="300"
+          data-aos="zoom-in-up"
+          data-aos-delay="200"
           data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
           className="text-[10vw] text-gray-9 flex justify-center items-center tracking-tight capitalize font-semibold"
         >
           Skills
@@ -39,7 +41,7 @@ const Skills = () => {
             // data-aos-easing="ease-in-out"
             // data-aos-mirror="true"
             // data-aos-once="false"
-            className=" sm:w-[44vw] md:h-[36vw] md:w-[48vw] sm:h-[44vw] w-[66vw] h-[64vw]  shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]  transition duration-300 ease-in-out   "
+            className=" sm:w-[44vw] md:h-[36vw] md:w-[48vw] sm:h-[44vw] w-[66vw] h-[64vw]  shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]  transition duration-300 ease-in-out bg-gradient-to-r from-neutral-300 to-stone-400  "
           >
             <h1
               data-aos="fade-left"
@@ -124,7 +126,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="sm:w-[44vw] md:h-[36vw] md:w-[48vw] sm:h-[44vw] w-[66vw] h-[64vw]  shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]  transition duration-300 ease-in-out md:mt-[0vw]  sm:mt-[0vw] mt-[14vw] ">
+          <div className="sm:w-[44vw] md:h-[36vw] md:w-[48vw] sm:h-[44vw] w-[66vw] h-[64vw]  shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]  transition duration-300 ease-in-out md:mt-[0vw]  sm:mt-[0vw] mt-[14vw] bg-gradient-to-r from-neutral-300 to-stone-400 ">
             <h1
               data-aos="fade-right"
               data-aos-anchor-placement="bottom-bottom"

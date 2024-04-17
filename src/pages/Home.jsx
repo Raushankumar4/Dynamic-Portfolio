@@ -4,7 +4,7 @@ import React from "react";
 // import About from "./About";
 // import Skills from "./Skills";
 // import Services from "./Services";
-// import Contact from "./Contact";
+
 // import Footer from "./Footer";
 import Marquee from "react-fast-marquee";
 import Aos from "aos";
@@ -260,7 +260,7 @@ const Home = () => {
       {/* <About />
       <Skills />
       <Services />
-      <Contact />
+     
       <Footer /> */}
     </>
   );

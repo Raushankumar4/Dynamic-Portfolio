@@ -25,7 +25,6 @@ const Navbar = () => {
           <ul className="flex gap-[2vw] sm:gap-[1vw] font-semibold cursor-pointer ">
             <li className="transition duration-300 ease-in-out hover:scale-x-110 ">
               <Link
-                activeClass="active"
                 to="/"
                 spy={true}
                 smooth={true}
