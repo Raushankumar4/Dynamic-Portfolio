@@ -34,13 +34,13 @@ const Skills = () => {
         </p>
         <div className="md:flex sm:flex w-full  md:h-[60vw] h-[80vw] md:gap-[2.6vw] sm:gap-[1.6vw] md:px-[6vw] sm:px-[4vw] md:mt-[-10vw] px-[16vw] sm:mt-[-12vw] pt-[6vw] justify-center items-center">
           <div
-            // data-aos="zoom-out-up"
-            // data-aos-offset="200"
-            // data-aos-delay="200"
-            // data-aos-duration="1000"
-            // data-aos-easing="ease-in-out"
-            // data-aos-mirror="true"
-            // data-aos-once="false"
+            data-aos="zoom-in-down"
+            data-aos-offset="200"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
             className=" sm:w-[44vw] md:h-[36vw] md:w-[48vw] sm:h-[44vw] w-[66vw] h-[64vw]  shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]  transition duration-300 ease-in-out bg-gradient-to-r from-neutral-300 to-stone-400  "
           >
             <h1
@@ -126,7 +126,16 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="sm:w-[44vw] md:h-[36vw] md:w-[48vw] sm:h-[44vw] w-[66vw] h-[64vw]  shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]  transition duration-300 ease-in-out md:mt-[0vw]  sm:mt-[0vw] mt-[14vw] bg-gradient-to-r from-neutral-300 to-stone-400 ">
+          <div
+            data-aos="zoom-in-up"
+            data-aos-offset="200"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            className="sm:w-[44vw] md:h-[36vw] md:w-[48vw] sm:h-[44vw] w-[66vw] h-[64vw]  shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]  transition duration-300 ease-in-out md:mt-[0vw]  sm:mt-[0vw] mt-[14vw] bg-gradient-to-r from-neutral-300 to-stone-400 "
+          >
             <h1
               data-aos="fade-right"
               data-aos-anchor-placement="bottom-bottom"
