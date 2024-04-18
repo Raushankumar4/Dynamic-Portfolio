@@ -72,7 +72,7 @@ const Services = () => {
             </p>
             <a
               className="font-medium text-gray-400  pl-[4.3vw]  pt-[4vw] tracking-tighter"
-              href=""
+              href="https://studyhub.tech/"
             >
               Learn More ⇾
             </a>
@@ -133,7 +133,7 @@ const Services = () => {
               data-aos-mirror="true"
               data-aos-once="false"
               className="font-medium text-gray-400  pl-[4.3vw]  pt-[4vw] tracking-tighter"
-              href=""
+              href="https://studyhub.tech/"
             >
               Learn More ⇾
             </a>
@@ -193,7 +193,7 @@ const Services = () => {
               data-aos-mirror="true"
               data-aos-once="false"
               className="font-medium text-gray-400  pl-[4.3vw]  pt-[4vw] tracking-tighter"
-              href=""
+              href="https://studyhub.tech/"
             >
               Learn More ⇾
             </a>

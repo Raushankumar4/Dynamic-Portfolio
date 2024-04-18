@@ -152,7 +152,7 @@ const Contact = () => {
               Write Your Message{" "}
             </h1>
             <textarea
-              data-aos="fade-down"
+              data-aos="fade-left"
               data-aos-delay="300"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
@@ -168,7 +168,7 @@ const Contact = () => {
               required
             ></textarea>
             <button
-              data-aos="zoom-in-left"
+              data-aos="fade-left"
               data-aos-delay="300"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
@@ -185,8 +185,8 @@ const Contact = () => {
         </div>
         <div className=" w-[30vw] h-[40vw] ml-[9.8vw] z-50 lg:mt-[19vw] md:mt-[22vw] sm:mt-[19vw] mt-[37vw]">
           <img
-            data-aos="fade-down-left"
-            data-aos-delay="50"
+            data-aos="fade-right"
+            data-aos-delay="100"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -196,8 +196,8 @@ const Contact = () => {
             alt="not_found"
           />
           <h1
-            data-aos="fade-down-left"
-            data-aos-delay="50"
+            data-aos="fade-right"
+            data-aos-delay="100"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -207,8 +207,8 @@ const Contact = () => {
             -
           </h1>
           <h2
-            data-aos="fade-down-left"
-            data-aos-delay="50"
+            data-aos="fade-right"
+            data-aos-delay="100"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -218,8 +218,8 @@ const Contact = () => {
             Contact Details
           </h2>
           <h1
-            data-aos="fade-down-left"
-            data-aos-delay="50"
+            data-aos="fade-right"
+            data-aos-delay="100"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -229,7 +229,7 @@ const Contact = () => {
             raushankumarguptag@gmail.com
           </h1>
           <h1
-            data-aos="fade-down-left"
+            data-aos="fade-right"
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
@@ -240,8 +240,8 @@ const Contact = () => {
             +91 9852185318
           </h1>
           <h1
-            data-aos="fade-down-left"
-            data-aos-delay="50"
+            data-aos="fade-right"
+            data-aos-delay="200"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -251,8 +251,8 @@ const Contact = () => {
             Location: New Delhi,India
           </h1>
           <h1
-            data-aos="fade-down-left"
-            data-aos-delay="50"
+            data-aos="fade-right"
+            data-aos-delay="100"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -262,8 +262,8 @@ const Contact = () => {
             Socials
           </h1>
           <a
-            data-aos="fade-down-top"
-            data-aos-delay="50"
+            data-aos="fade-right"
+            data-aos-delay="500"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -275,8 +275,8 @@ const Contact = () => {
           </a>
 
           <a
-            data-aos="fade-down-left"
-            data-aos-delay="50"
+            data-aos="fade-right"
+            data-aos-delay="600"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -288,8 +288,8 @@ const Contact = () => {
           </a>
 
           <a
-            data-aos="fade-down-left"
-            data-aos-delay="50"
+            data-aos="fade-right"
+            data-aos-delay="700"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -301,8 +301,8 @@ const Contact = () => {
           </a>
 
           <a
-            data-aos="fade-down-left"
-            data-aos-delay="50"
+            data-aos="fade-right"
+            data-aos-delay="800"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -312,13 +312,6 @@ const Contact = () => {
           >
             Facebook
           </a>
-
-          {/* <a
-            className="text-white tracking-tight font-semibold text-[1.2vw] mt-[4vw] transition ease-in-out delay-150  hover:text-gray-400 hover:text-[1.4vw] hover:underline flex "
-            href=""
-          >
-            facebook
-          </a> */}
         </div>
       </div>
       <ToastContainer />
