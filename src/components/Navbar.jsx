@@ -16,7 +16,7 @@ const Navbar = () => {
         data-aos-delay="50"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
-        className="uppercase flex lg:h-[2.3vw] md:h-[2.99vw] mix-blend-normal md:py-[0.4vw]  tracking-tight justify-between sm:px-[14vw] px-[12vw] sm:gap-[1vw] md:px-[10vw] w-full text-gray-100 bg-gradient-to-r from-neutral-600 to-[#95959500] md:text-[1.8vw] sm:text-[2vw] text-[2.80vw] lg:text-[1.4vw]  fixed z-[999]"
+        className="uppercase flex lg:h-[2.3vw] md:h-[2.99vw] mix-blend-normal md:py-[0.4vw]  tracking-tight justify-between sm:px-[14vw] px-[12vw] sm:gap-[1vw] md:px-[10vw] w-full text-gray-100 bg-gradient-to-r from-neutral-600 to-[#95959500] md:text-[1.8vw] sm:text-[2vw] text-[2.80vw] lg:text-[1.4vw]  fixed z-[999] sm:h-[2.99] h-[6vw] lg:py-[0.4vw] sm:py-[0vw] py-[2vw]"
       >
         <h1 className="transition duration-300 ease-in-out hover:-scale-x-110 ">
           👀
@@ -65,7 +65,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className="transition duration-300 ease-in-out hover:scale-x-110 hover:translate-x-2">
+            <li className="transition duration-300 ease-in-out hover:scale-x-110 ">
               <Link
                 activeClass="active"
                 to="/service"

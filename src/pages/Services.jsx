@@ -10,7 +10,7 @@ const Services = () => {
 
   return (
     <>
-      <div className="bg-gradient-to-tl from-stone-600 to-stone-100 w-full md:min-h-[100vh] sm:h-[100vh] lg:h-[120vh] min-h-[100vh] md:pb-[0vw] sm:pb-[0vw] pb-[10vw]   pt-[9vw] md:pt-[2vw] sm:pt-[2vw]  relative rounded-tl-0xl">
+      <div className="bg-gradient-to-tl from-stone-600 to-stone-100 w-full md:min-h-[100vh] sm:h-[100vh] lg:h-[120vh] min-h-[100vh] md:pb-[0vw] sm:pb-[0vw] pb-[10vw]   pt-[14vw] md:pt-[2vw] sm:pt-[2vw]  relative rounded-tl-0xl">
         <h1
           data-aos="fade-down"
           data-aos-delay="200"

@@ -17,7 +17,7 @@ const About = () => {
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="false"
-        className="bg-gradient-to-tl from-stone-600 to-stone-100 w-full sm:h-[100vh] lg:h-[120vh] h-[140vh] pt-[24vw] sm:pt-[6vw] lg:pt-[0vw] relative rounded-tl-0xl"
+        className="bg-gradient-to-tl from-stone-600 to-stone-100 w-full sm:h-[100vh] lg:h-[120vh] h-[120vh] pt-[36vw] sm:pt-[6vw] lg:pt-[0vw] relative rounded-tl-0xl"
       >
         <div
           data-aos="fade-down"

@@ -11,6 +11,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 import { useEffect } from "react";
+import Contact from "./Contact";
 const Home = () => {
   useEffect(() => {
     Aos.init();
@@ -42,7 +43,7 @@ const Home = () => {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            className="md:text-[9vw] lg:text-[9vw]  tracking-tighter   bg-gradient-to-bl from-gray-100 via-gray-900 to-gray-900 bg-clip-text text-transparent absolute pl-[4vw] lg:bottom-[58%] sm:bottom-[59.5%] bottom-[57.99%] md:bottom-[54.66%] text-[12vw] sm:text-[10vw] md:leading-[14vw] sm:leading-[15vw] leading-[22.4vw] font-bold"
+            className="md:text-[9vw] lg:text-[9vw]  tracking-tighter   bg-gradient-to-bl from-gray-100 via-gray-900 to-gray-900 bg-clip-text text-transparent absolute pl-[4vw] lg:bottom-[58%] sm:bottom-[59.5%] bottom-[57.99%] md:bottom-[54.66%] text-[12vw] sm:text-[10vw] md:leading-[14vw] sm:leading-[15vw] leading-[22.4vw] lg:font-bold md:font-bold sm:font-bold font-extrabold"
           >
             Hi, I'm
           </h1>
@@ -53,7 +54,7 @@ const Home = () => {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            className="absolute md:bottom-[43%] sm:bottom-[49%] lg:bottom-[44.4%]  md:text-[9vw] font-bold tracking-tighter bottom-[50.2%] pl-[4vw] bg-gradient-to-r from-zinc-900 via-slate-900 to-gray-700 bg-clip-text text-transparent text-[12vw] sm:text-[10vw]"
+            className="absolute md:bottom-[43%] sm:bottom-[49%] lg:bottom-[44.4%]  md:text-[9vw]  tracking-tight bottom-[52.33%] pl-[4vw] bg-gradient-to-r from-zinc-900 via-slate-900 to-gray-700 bg-clip-text text-transparent text-[13vw] sm:text-[10vw] lg:font-bold md:font-bold sm:font-bold font-extrabold"
           >
             Raushan.
           </p>
@@ -65,7 +66,7 @@ const Home = () => {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            className="absolute sm:bottom-[43.4%] md:bottom-[39%]  lg:bottom-[40%]  md:text-[4vw] font-bold tracking-tighter bottom-[46%]   pl-[4.4vw] bg-gradient-to-bl from-stone-900 via-blue-700 to-neutral-900 bg-clip-text text-transparent text-[6.4vw]"
+            className="absolute sm:bottom-[43.4%] md:bottom-[39%]  lg:bottom-[40%]  md:text-[4vw] font-bold tracking-tighter bottom-[49%]   pl-[4.4vw] bg-gradient-to-bl from-stone-900 via-blue-700 to-neutral-900 bg-clip-text text-transparent text-[6.8vw]"
           >
             I'm a Front-end Developer.
           </p>
@@ -77,18 +78,18 @@ const Home = () => {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            className="absolute sm:bottom-[35.5%] sm:tracking-tighter sm:text-[3vw]  md:bottom-[30.6%] lg:bottom-[32%] bottom-[37%]  md:text-[1.4rem] tracking-tight pl-[4.4vw]  mb-6 bg-gradient-to-br from-black via-blue-600 to-zinc-900 bg-clip-text text-transparent text-[4vw] font-semibold lg:tracking-tighter  "
+            className="absolute sm:bottom-[35.5%] sm:tracking-tighter sm:text-[3vw]  md:bottom-[30.6%] lg:bottom-[32%] bottom-[42%]  md:text-[1.4rem]  pl-[4.4vw]  mb-6 bg-gradient-to-br from-black via-gray-600 to-zinc-900 bg-clip-text text-transparent text-[5vw] font-semibold lg:tracking-tighter  tracking-tighter leading-7 lg:leading-none md:leading-none sm:leading-none "
           >
             I'm a Modern Web Developer based in India,
           </p>
-          <p className="absolute sm:bottom-[31%] sm:tracking-tighter sm:text-[3vw]  md:bottom-[26.6%] lg:bottom-[27.89%] lg:tracking-tighter bottom-[33%]  md:text-[1.4rem] tracking-tight pl-[4.4vw]  mb-6 bg-gradient-to-br from-black via-blue-600 to-zinc-900 bg-clip-text text-transparent text-[4vw] font-semibold ">
-            and i am very passionate and dedicated to my work.
+          <p className="absolute sm:bottom-[31%] sm:tracking-tighter sm:text-[3vw]  md:bottom-[26.6%] lg:bottom-[27.89%] lg:tracking-tighter bottom-[39%]  md:text-[1.4rem] tracking-tighter pl-[4.4vw]  mb-6 bg-gradient-to-br from-black via-blue-600 to-zinc-900 bg-clip-text text-transparent text-[5.1vw] font-semibold leading-5 lg:leading-none md:leading-none sm:leading-none">
+            and very passionate & dedicated to my work.
           </p>
           <a
-            className="ml-[4.6vw] mt-[4vw] absolute bottom-[22%] px-6 py-2 font-medium bg-indigo-500 text-white w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]  lg:bottom-[20%] md:bottom-[16%] sm:bottom-[20%]  "
-            href="contact"
+            className="ml-[4.6vw] mt-[4vw] absolute bottom-[28%] px-6 py-2 font-medium bg-indigo-500 text-white w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]  lg:bottom-[20%] md:bottom-[16%] sm:bottom-[20%]  "
+            href="mailto:raushankumarguptag@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"
           >
-            Hire me..
+            Join Us
           </a>
         </div>
         <div
